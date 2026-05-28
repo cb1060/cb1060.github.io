@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Christian Brauer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">CB</div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link">HOME</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link">ABOUT ME</a></li>
+                <li class="nav-item"><a href="projects.html" class="nav-link active">PROJECTS</a></li>
+                <li class="nav-item"><a href="resume.html" class="nav-link">EXPERIENCE</a></li>
+                <li class="nav-item"><a href="reflection.html" class="nav-link">REFLECTION</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Projects Section -->
+    <section class="page-section">
+        <div class="page-header">
+            <h1>PROJECTS</h1>
+            <p class="page-subtitle">Programming work that showcases my skills and creativity</p>
+        </div>
+
+        <div class="projects-grid">
+            <!-- Project 1: Bomb Detection Game -->
+            <div class="project-card">
+                <div class="project-header">
+                    <h2>BOMB DETECTION GAME</h2>
+                    <span class="project-tag">Java</span>
+                </div>
+                <p class="project-description">An interactive game where players must navigate through a dynamic environment, locate a hidden bomb, and defuse it before it detonates. Features real-time player movement, collision detection, and high-pressure decision-making mechanics.</p>
+                
+                <div class="project-details">
+                    <h3>🎯 Challenges & Solutions</h3>
+                    <ul>
+                        <li><strong>Collision Detection:</strong> Implemented precise hitbox systems to detect player proximity to the bomb and obstacles. Solved through distance-based calculations and boundary testing.</li>
+                        <li><strong>Game State Management:</strong> Managing win/lose conditions and game timing required careful state machine design. Overcame timing issues with proper event handling.</li>
+                        <li><strong>User Input Response:</strong> Creating smooth, responsive controls meant optimizing input handling and frame rendering to avoid lag.</li>
+                    </ul>
+
+                    <h3>💡 Lessons Learned</h3>
+                    <ul>
+                        <li>Game development requires meticulous attention to timing and state management</li>
+                        <li>Testing edge cases (rapid button presses, corner collisions) is critical for polished gameplay</li>
+                        <li>User experience design matters as much as technical implementation</li>
+                        <li>Iterating on game feel and difficulty balance requires patience and experimentation</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Project 2: Data Analysis System -->
+            <div class="project-card">
+                <div class="project-header">
+                    <h2>STATISTICAL ANALYSIS SYSTEM</h2>
+                    <span class="project-tag">Python</span>
+                </div>
+                <p class="project-description">A comprehensive system for analyzing and visualizing complex datasets. Built to handle large-scale data processing, statistical calculations, and generate meaningful insights from raw information.</p>
+                
+                <div class="project-details">
+                    <h3>🎯 Challenges & Solutions</h3>
+                    <ul>
+                        <li><strong>Data Processing Performance:</strong> Initial implementations were slow with large datasets. Optimized through vectorization and algorithmic improvements.</li>
+                        <li><strong>Accuracy in Calculations:</strong> Ensuring statistical functions matched mathematical standards required extensive testing and validation.</li>
+                        <li><strong>Visualization Complexity:</strong> Creating clear, informative visualizations from multidimensional data involved learning data visualization libraries.</li>
+                    </ul>
+
+                    <h3>💡 Lessons Learned</h3>
+                    <ul>
+                        <li>Performance optimization is essential when working with real-world data scales</li>
+                        <li>Understanding the mathematics behind algorithms helps in debugging and optimization</li>
+                        <li>Data visualization is an art form that makes numbers meaningful</li>
+                        <li>Testing with diverse datasets reveals edge cases and improves robustness</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Project 3: Sorting Algorithm Visualizer -->
+            <div class="project-card">
+                <div class="project-header">
+                    <h2>SORTING ALGORITHM VISUALIZER</h2>
+                    <span class="project-tag">Java</span>
+                </div>
+                <p class="project-description">An interactive educational tool that visualizes how different sorting algorithms work in real-time. Supports multiple sorting techniques (quicksort, mergesort, bubble sort, etc.) with adjustable speed and array sizes.</p>
+                
+                <div class="project-details">
+                    <h3>🎯 Challenges & Solutions</h3>
+                    <ul>
+                        <li><strong>Real-time Visualization:</strong> Rendering thousands of comparisons per second without stuttering. Solved with efficient graphics rendering and event batching.</li>
+                        <li><strong>Algorithm Implementation:</strong> Ensuring each sorting algorithm was correctly implemented and properly instrumented for visualization tracking.</li>
+                        <li><strong>UI Responsiveness:</strong> Keeping the UI responsive while algorithms ran required threading and proper event handling.</li>
+                    </ul>
+
+                    <h3>💡 Lessons Learned</h3>
+                    <ul>
+                        <li>Visual representations of algorithms enhance understanding exponentially</li>
+                        <li>Each algorithm has trade-offs in speed, space, and stability</li>
+                        <li>User control (speed, array size) is important for educational value</li>
+                        <li>Threading and concurrency are essential for responsive applications</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Project 4: System Resource Monitor -->
+            <div class="project-card">
+                <div class="project-header">
+                    <h2>SYSTEM RESOURCE MONITOR</h2>
+                    <span class="project-tag">Python</span>
+                </div>
+                <p class="project-description">A comprehensive system monitoring tool that tracks CPU usage, memory consumption, disk activity, and network traffic in real-time. Provides dashboards and alerts for resource anomalies.</p>
+                
+                <div class="project-details">
+                    <h3>🎯 Challenges & Solutions</h3>
+                    <ul>
+                        <li><strong>System-Level Data Access:</strong> Reading system metrics required understanding OS APIs and permissions. Solved through cross-platform libraries like psutil.</li>
+                        <li><strong>Data Collection Performance:</strong> Continuous monitoring without consuming excessive resources meant careful thread management and efficient data structures.</li>
+                        <li><strong>Real-time Dashboard Updates:</strong> Smooth, responsive dashboard required asynchronous updates and efficient data transmission.</li>
+                    </ul>
+
+                    <h3>💡 Lessons Learned</h3>
+                    <ul>
+                        <li>Systems programming requires understanding of operating system fundamentals</li>
+                        <li>Performance monitoring is a critical skill for software engineers</li>
+                        <li>Real-time systems require careful consideration of resource usage</li>
+                        <li>Good monitoring tools make debugging and optimization infinitely easier</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 Christian Brauer. All rights reserved. | Engineering focused | Computer Science</p>
+        <div class="footer-links">
+            <a href="https://github.com/cb1060" target="_blank">GitHub</a>
+        </div>
+    </footer>
+</body>
+</html>
