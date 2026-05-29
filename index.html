@@ -3,88 +3,153 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Home</title>
+    <title>Christian Brauer - Software Engineer & Problem Solver</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Navigation -->
+    <!-- Navigation Bar -->
     <nav class="navbar">
-        <div class="container">
-            <a href="index.html" class="logo">My Portfolio</a>
-            <ul class="nav-links">
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="about.html">About Me</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="resume.html">Resume</a></li>
-                <li><a href="reflection.html">Reflection</a></li>
+        <div class="nav-container">
+            <div class="nav-logo">CB</div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link active">HOME</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link">ABOUT ME</a></li>
+                <li class="nav-item"><a href="projects.html" class="nav-link">PROJECTS</a></li>
+                <li class="nav-item"><a href="resume.html" class="nav-link">EXPERIENCE</a></li>
+                <li class="nav-item"><a href="reflection.html" class="nav-link">REFLECTION</a></li>
             </ul>
         </div>
     </nav>
 
     <!-- Hero Section -->
     <section class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <h1>Welcome to My Portfolio</h1>
-                <p class="tagline">Software Developer | Innovator | Lifelong Learner</p>
-                <p class="introduction">
-                    Hi! I'm a passionate developer dedicated to creating impactful software solutions. 
-                    Through continuous learning and hands-on experience, I aim to build technology that 
-                    makes a difference.
-                </p>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">CHRISTIAN BRAUER</h1>
+                <p class="hero-subtitle">Engineering | Software Development | Problem Solving</p>
+                <p class="hero-description">Building complex systems with code. Passionate about engineering solutions and pushing the boundaries of what's possible through technology.</p>
                 <div class="cta-buttons">
-                    <a href="projects.html" class="btn btn-primary">View My Work</a>
-                    <a href="about.html" class="btn btn-secondary">Learn More</a>
+                    <a href="projects.html" class="cta-primary">VIEW PROJECTS</a>
+                    <a href="reflection.html" class="cta-secondary">MY JOURNEY</a>
                 </div>
+            </div>
+            <div class="hero-visual">
+                <div class="animated-grid"></div>
+                <div class="pulse-circle"></div>
             </div>
         </div>
     </section>
 
-    <!-- Goals/Interests Section -->
-    <section class="goals">
-        <div class="container">
-            <h2>My Goals & Interests</h2>
-            <div class="goals-grid">
-                <div class="goal-card">
-                    <h3>🚀 Career Growth</h3>
-                    <p>
-                        Develop expertise in full-stack development and cloud technologies. 
-                        I'm committed to mastering modern frameworks and becoming a skilled software engineer.
-                    </p>
+    <!-- Highlights Section -->
+    <section class="highlights">
+        <h2>CORE COMPETENCIES</h2>
+        <div class="highlights-grid">
+            <div class="highlight-card">
+                <div class="highlight-icon">⚙️</div>
+                <h3>System Design</h3>
+                <p>Understanding complex systems and breaking them down into manageable components</p>
+            </div>
+            <div class="highlight-card">
+                <div class="highlight-icon">🔄</div>
+                <h3>Problem Solving</h3>
+                <p>Patient, iterative approach to debugging and testing until solutions work</p>
+            </div>
+            <div class="highlight-card">
+                <div class="highlight-icon">💡</div>
+                <h3>Creative Coding</h3>
+                <p>Building interactive experiences through games and dynamic applications</p>
+            </div>
+            <div class="highlight-card">
+                <div class="highlight-icon">📈</div>
+                <h3>Continuous Growth</h3>
+                <p>Always leveling up in complex coding systems and technical skills</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Stats Section -->
+    <section class="quick-stats">
+        <h2>MY JOURNEY</h2>
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-number">4+</div>
+                <div class="stat-label">Major Projects</div>
+                <p>Complex systems showcasing technical expertise</p>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">2</div>
+                <div class="stat-label">Languages</div>
+                <p>Python & Java - Advanced Proficiency</p>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">300+</div>
+                <div class="stat-label">Words</div>
+                <p>Reflection on growth and learning</p>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">∞</div>
+                <div class="stat-label">Potential</div>
+                <p>Committed to mastering complex systems</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Projects Preview -->
+    <section class="featured-projects">
+        <h2>FEATURED WORK</h2>
+        <div class="featured-grid">
+            <div class="featured-card">
+                <div class="featured-header">
+                    <h3>BOMB DETECTION GAME</h3>
+                    <span class="featured-tag">Java</span>
                 </div>
-                <div class="goal-card">
-                    <h3>💡 Innovation</h3>
-                    <p>
-                        Create solutions that solve real-world problems. I'm interested in building 
-                        applications that have a positive impact on users and communities.
-                    </p>
-                </div>
-                <div class="goal-card">
-                    <h3>🤝 Collaboration</h3>
-                    <p>
-                        Work with talented teams to deliver quality projects. I value teamwork, 
-                        open communication, and shared learning experiences.
-                    </p>
-                </div>
-                <div class="goal-card">
-                    <h3>📚 Continuous Learning</h3>
-                    <p>
-                        Stay updated with emerging technologies and best practices. 
-                        I'm passionate about exploring new tools and methodologies in software development.
-                    </p>
+                <p>Interactive game featuring real-time collision detection, game state management, and high-pressure decision-making mechanics.</p>
+                <div class="featured-footer">
+                    <a href="projects.html" class="featured-link">Learn More →</a>
                 </div>
             </div>
+            <div class="featured-card">
+                <div class="featured-header">
+                    <h3>STATISTICAL ANALYSIS</h3>
+                    <span class="featured-tag">Python</span>
+                </div>
+                <p>Comprehensive data processing system handling large-scale analysis, statistical calculations, and meaningful insights generation.</p>
+                <div class="featured-footer">
+                    <a href="projects.html" class="featured-link">Learn More →</a>
+                </div>
+            </div>
+            <div class="featured-card">
+                <div class="featured-header">
+                    <h3>SORTING VISUALIZER</h3>
+                    <span class="featured-tag">Java</span>
+                </div>
+                <p>Educational tool visualizing multiple sorting algorithms in real-time with adjustable parameters and visual explanations.</p>
+                <div class="featured-footer">
+                    <a href="projects.html" class="featured-link">Learn More →</a>
+                </div>
+            </div>
+        </div>
+        <div class="view-all-cta">
+            <a href="projects.html" class="cta-primary">VIEW ALL PROJECTS</a>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="final-cta">
+        <h2>Ready to Explore My Work?</h2>
+        <p>Dive into my projects, learn about my journey, and discover how I approach complex problems through systematic thinking and persistent problem-solving.</p>
+        <div class="cta-buttons-large">
+            <a href="projects.html" class="cta-primary">PROJECTS</a>
+            <a href="about.html" class="cta-secondary">ABOUT ME</a>
+            <a href="resume.html" class="cta-secondary">EXPERIENCE</a>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer>
-        <div class="container">
-            <p>&copy; 2026 My Portfolio. All rights reserved.</p>
-            <div class="social-links">
-                <a href="https://github.com/cb1060" target="_blank">GitHub</a>
-                <a href="https://linkedin.com" target="_blank">LinkedIn</a>
-            </div>
+    <footer class="footer">
+        <p>&copy; 2026 Christian Brauer. All rights reserved. | Engineering focused | Computer Science</p>
+        <div class="footer-links">
+            <a href="https://github.com/cb1060" target="_blank">GitHub</a>
         </div>
     </footer>
 </body>
